@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f7f8fa;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+.compliance-banner {
+  background-color: #fff3e0;
+  color: #e65100;
+  padding: 8px 16px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.safety-tips {
+  background-color: #e3f2fd;
+  color: #1565c0;
+  padding: 10px 16px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.product-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.product-tag {
+  background-color: #fff3e0;
+  color: #e65100;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #FF6B35 0%, #FF8C42 100%);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary:active {
+  opacity: 0.9;
+}
+
+button {
+  cursor: pointer;
+}
+
+input, textarea {
+  cursor: text;
+}
